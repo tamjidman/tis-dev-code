@@ -24,6 +24,7 @@
         font-weight: bold;
         font-size: 20px;
         color: white;
+        cursor: pointer;
         /* text-align: center; */
 
 
@@ -32,7 +33,10 @@
 /* main style */
 header{
     background-color: #fff8f3;
+    background: url("../images/developer.png"),url("../images/header_bg.png"),#fff8f3;
     padding-top: 50px;
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
 }
 nav{
     width: 71%;
@@ -53,4 +57,45 @@ nav .menu {
     list-style-type: none;
     gap: 51px;
     align-items: center;
+}
+
+#banner{
+    /* border: solid red; */
+    margin: 46px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banne .banner-image img{
+    max-width: 584px;
+    /* vertical-align:middle; */
+    display: block;
+}
+.banner-image {
+    line-height: 0;
+}
+
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
 }
